@@ -23,6 +23,10 @@ header {
     border-style: none;
 }
 
+.nav-bar button:hover {
+    opacity: 0.6;
+}
+
 #home {
     text-decoration: underline;
     text-decoration-style: double;
@@ -55,11 +59,11 @@ header {
     border-style: thin;
     border-color: black;
     height: 400px;
-    width: 800px;
+    width: 900px;
     margin: auto;
     background-image: url("me.jpg");
     background-repeat: no-repeat;
-    background-size: 800px auto;
+    background-size: 900px auto;
 }
 
 #intro-statement {
@@ -84,16 +88,16 @@ header {
     width: 100vw;
     height: 30px;
     font-size: 2em;
-    font-weight: 600;
+    font-weight: 500;
     font-family: serif;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 .star-icon {
     width:100vw;
     height: 50px;
     text-align: center;
-    font-size: 4em;
+    font-size: 3.2em;
 }
 
 .two-projects {
@@ -107,9 +111,8 @@ header {
     width: 445px;
     margin: 10px 0px 0px 0px;
     float: left;
-    border-style: solid;
-    border-color: lightgrey;
     border-radius: 0px;
+    border-style: double;
 }
 
 #proj1 {
@@ -119,34 +122,36 @@ header {
     margin-left: 10px;
 }
 
-.project-name{
-    font-size: 1.5em;
-    padding-top: 10px;
+.project-date {
+    margin-top: 10px;
+    margin-bottom: 10px; 
     padding-left: 10px;
     font-family: serif;
+    font-size: 1em;
+    font-weight: 600;
 }
 
-.project-location {
-    padding-top: 3px;
+.project-name{
+    font-size: 1.3em;
     padding-left: 10px;
-    font-style: italic;
     font-family: serif;
-    font-size: 0.9em;
-    color: grey;
+    text-decoration: none;
+    font-weight: 600;
+    color: blue;
 }
+
+.project-name:hover {
+    opacity: 0.5;
+}
+
 .project-description {
     width: 400px;
-    padding-left: 20px;
+    padding-left: 10px;
     padding-right: 10px;
     margin-bottom: 10px;
     font-family: serif;
-    line-height: 22px;
+    font-size: 0.9em;
+    line-height: 24px;
+    margin-top: 10px;
 }
-.more {
-    height: 20px;
-    font-style: italic;
-    font-size: 0.8em;
-    text-align: right;
-    margin-right: 10px;
-    margin-left: 350px;
-}
+
