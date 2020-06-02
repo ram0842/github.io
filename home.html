@@ -1,23 +1,35 @@
 <!DOCTYPE html>
+<html>
     <header>
-        <div class="nav-bar">
-            <button onclick="home_underline()" id="home">Home</button>
-            <button onclick="about_underline()" id="about">About</button>
-            <button onclick="projects_underline()" id="projects">Projects</button>
-            <button onclick="resume_underline()" id="resume">Resume</button>
-        </div>
-        <div class="initials">RM</div>
+        <div class="my-name">RACHEL MCCARDELL</div>
         <link rel="stylesheet" type="text/css" href="portfolio.css"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" 
+            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" 
+            rel="stylesheet">
+        <div class="pulldown-icon">
+            <i class="material-icons">menu</i>
+            <nav class="pulldown-menu">
+                <ul>
+                    <li id="home">HOME</li>
+                    <li id="about">ABOUT</li>
+                    <li id="projects">PROJECTS</li>
+                    <li id="resume">RESUME</li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <body>
-        <div class="me-image"></div>
-        <p id="intro-statement"></p>
-        <div class="home-projects">
-            <div class="projects-title">My Projects</div>
-            <div class="star-icon">***</div>
+        <div class="panel1">
+            <img id="runner" src="runner.png" alt="Runner Girl">
+        </div>
+        <div class="panel2">
+            <p id="intro-statement"></p>
             <div class="two-projects">
                 <div class="project" id="proj1">
-                    <div class="project-date">Jan 2020 - Present</div>
+                    <div class="img" id="img1"></div>
                     <a class="project-name" href="https://atlas.northwestern.edu/project/nasa-team-task-switching/">
                         NASA Team Task Switching</a>
                     <p class="project-description">I currently work as an undergraduate research assistant
@@ -28,10 +40,11 @@
                     </p>
                 </div>
                 <div class="project" id="proj2">
-                    <div class="project-date">June 2020 - August 2020</div>
-                    <div class="project-name">Project TBD</div>
+                    <div class="img" id="img2"></div>
+                    <div class="project-name" id="proj2">Project TBD</div>
                     <p class="project-description">But when I do something relevant that I am proud of
-                        I will definitely add it here. Hoping to start on something this summer. We'll see.</p>
+                        I will definitely add it here. Hoping to start on something this summer. We'll see.
+                    </p>
                 </div>
             </div>
         </div>
