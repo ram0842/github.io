@@ -1,5 +1,5 @@
 var i=0;
-var introtxt = "Hi there, my name is Rachel McCardell. I am a computer science student at Northwestern University in Evanston, IL.";
+var introtxt = "Hello, World! My name is Rachel McCardell. I am a computer science student at Northwestern University in Evanston, IL.";
 var speed = 50;
 
 function typeWriter() {
@@ -9,5 +9,26 @@ function typeWriter() {
         setTimeout(typeWriter, speed);
     }
 }
+
+function showTextRunning() {
+    document.getElementById("me-info").innerHTML = "I am a student athlete on the D1 Women's Cross Country and Track teams. Running has always been a strong passion of mine.";
+}
+
+function showTextEducation() {
+    document.getElementById("me-info").innerHTML = " I am pursuing a BS in Computer Science at Northwestern University.";
+}
+
+function showTextMusic() {
+    document.getElementById("me-info").innerHTML = "In my free time, I perform with my collegiate a cappella group, Extreme Measures, in gigs and shows around the Chicago area.";
+}
+
+function showTextHouse() {
+    document.getElementById("me-info").innerHTML = "Detroit is where I call home. I was born and raised in SE Michigan.";
+}
+
+function showTextCoffee() {
+    document.getElementById("me-info").innerHTML = "I am a severe coffee addict!";
+}
+
 
 document.onload = typeWriter();

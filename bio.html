@@ -1,30 +1,38 @@
 <!DOCTYPE html>
+<html>
     <header>
-        <div class="nav-bar">
-            <button class="home">Home</button>
-            <button class="about">About</button>
-            <button class="projects">Projects</button>
-            <button class="resume">Resume</button>
-            <div class="initials"></div>
-        </div>
+        <div class="my-name">RACHEL MCCARDELL</div>
         <link rel="stylesheet" type="text/css" href="portfolio.css"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" 
+            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" 
+            rel="stylesheet">
+        <div class="pulldown-icon">
+            <i class="material-icons">menu</i>
+            <nav class="pulldown-menu">
+                <ul>
+                    <li id="home"><a href="home.html">HOME</a></li>
+                    <li id="about"><a href="bio.html">ABOUT ME</a></li>
+                    <li id="projects"><a href="projects.html">PROJECTS</a></li>
+                    <li id="resume">RESUME</li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <body>
-        <div class="me-image"></div>
-        <div class="about-me">
-            <div class="about-me-title"></div>
-            <div class="about-me-bio">Bio of myself</div>
+        <div class= "panel1" id="aboutpanel1"></div>
+        <div class="panel1half">
+            <div id="icon-holder">
+                <img class="icon" id="music-img" src="music.png" alt="Music Notes" onclick="showTextMusic()">
+                <img class="icon" id="house-img" src="house.png" alt="House" onclick="showTextHouse()">
+                <img class="icon" id="education-img" src="school.png" alt="Graduation Hat" onclick="showTextEducation()">
+                <img class="icon" id="running-img" src="runner.png" alt="Runner Girl" onclick="showTextRunning()">
+                <img class="icon" id="coffee-img" src="coffee.png" alt="Coffee Cup" onclick="showTextCoffee()">
+            </div>
+            <p id="me-info"></p>
         </div>
-        <div class="skills">
-            <ul>
-                <li>C++</li>
-                <li>HTML/CSS</li>
-                <li>JavaScript</li>
-                <li>Racket</li>
-                <li>R</li>
-            </ul>
-            <div class="skills-bars"></div>
-        </div>
+    <script src="portfolio.js"></script> 
     </body>
-
 </html>
