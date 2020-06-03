@@ -26,6 +26,7 @@ header {
     height: 500px;
     background-color: #3a506B;
     border-style: solid;
+    border-color: #3a506B;
 }
 
 #projectspanel1 {
@@ -94,7 +95,7 @@ li a {
 .panel2 {
     width: 100vw;
     height: 800px;
-    background-color: #white;
+    background-color: white;
 }
 
 #intro-statement {
@@ -105,6 +106,7 @@ li a {
     margin: auto;
     padding-top: 25px;
     text-align: center;
+    text-decoration: none;
 }
 
 .two-projects {
@@ -187,7 +189,14 @@ img:hover{
     display: inline-block;
 }
 
-
+#contact {
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-family: 'Lato', sans-serif;
+    color: #1C2541;
+}
 
 
 

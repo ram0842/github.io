@@ -11,7 +11,7 @@ function typeWriter() {
 }
 
 function showTextRunning() {
-    document.getElementById("me-info").innerHTML = "I am a student athlete on the D1 Women's Cross Country and Track teams. Running has always been a strong passion of mine.";
+    document.getElementById("me-info").innerHTML = "I am a student athlete on Northwestern's D1 Women's Cross Country and Track teams. Running has always been a strong passion of mine.";
 }
 
 function showTextEducation() {
@@ -19,7 +19,7 @@ function showTextEducation() {
 }
 
 function showTextMusic() {
-    document.getElementById("me-info").innerHTML = "In my free time, I perform with my collegiate a cappella group, Extreme Measures, in gigs and shows around the Chicago area.";
+    document.getElementById("me-info").innerHTML = "In my free time, I perform with my collegiate a cappella group, Extreme Measures, in gigs and shows around the Chicago area. Check us out on Spotify or Apple Music!";
 }
 
 function showTextHouse() {
